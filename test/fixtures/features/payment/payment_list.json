@@ -1,0 +1,66 @@
+[
+    {
+      "status": "open",
+      "value": 3100,
+      "dueDate": "01/09/2020",
+      "effectiveDate": "01/08/2020",
+      "details": [
+        {
+          "descripton": "Pacote Yuca",
+          "value": 2600
+        },
+        {
+          "descripton": "Multa por Atraso",
+          "value": -90
+        },
+        {
+          "descripton": "ServiÃ§o adicional kit 30 marmitas",
+          "value": 410
+        }
+      ]
+    },
+    {
+      "status": "closed",
+      "value": 2600,
+      "dueDate": "01/08/2020",
+      "effectiveDate": "01/07/2020",
+      "details": [
+        {
+          "descripton": "Pacote Yuca",
+          "value": 2600
+        }
+      ]
+    },
+    {
+      "status": "paid",
+      "value": 3260,
+      "dueDate": "01/07/2020",
+      "effectiveDate": "01/06/2020",
+      "details": [
+        {
+          "descripton": "Pacote Yuca",
+          "value": 2600
+        },
+        {
+          "descripton": "Multa por Atraso",
+          "value": -90
+        },
+        {
+          "descripton": "ServiÃ§o adicional kit 30 marmitas",
+          "value": 410
+        },
+        {
+          "descripton": "ServiÃ§o adicional de limpeza padrÃ£o - 3h",
+          "value": 90
+        },
+        {
+          "descripton": "ServiÃ§o adicional de limpeza padrÃ£o - 8h",
+          "value": 150
+        },
+        {
+          "descripton": "ServiÃ§o adicional Vivo Super HD",
+          "value": 100
+        }
+      ]
+    }
+  ]

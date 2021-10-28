@@ -1,0 +1,20 @@
+{
+    "status": "open",
+    "value": 3100,
+    "dueDate": "01/09/2020",
+    "effectiveDate": "01/08/2020",
+    "details": [
+      {
+        "descripton": "Pacote Yuca",
+        "value": 2600
+      },
+      {
+        "descripton": "Multa por Atraso",
+        "value": -90
+      },
+      {
+        "descripton": "ServiÃ§o adicional kit 30 marmitas",
+        "value": 410
+      }
+    ]
+}
