@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../../../../../commons/extensions/theme/theme_context.dart';
+import '../../../../../commons/services/analytics/firebase_analytics_service.dart';
+import '../../../../../commons/services/analytics/models/open_payment_parameters.dart';
 import '../../../../../injection_container.dart';
 import '../../../domain/entities/payment.dart';
 import '../../stores/payment_store.dart';
@@ -77,6 +79,10 @@ class _PaymentListPageState extends State<PaymentListPage> {
 
   void _goToDetails(Payment payment, VoidCallback openContainer) {
     paymentStore.selectPayment = payment;
+    final analytics = serviceLocator.get<FirebaseAnalyticsService>();
+    final paymentValue = payment.value.toString();
+    analytics.logOpenPaymentDetailsEvent(OpenPaymentParameters(
+        paymentId: paymentValue, paymentValue: paymentValue));
     openContainer();
   }
 

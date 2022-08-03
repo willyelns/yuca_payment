@@ -8,9 +8,9 @@ extension ContextThemeExtension on BuildContext {
   ColorScheme get colorScheme => theme.colorScheme;
   Color get baseBlackColor => colorScheme.baseBlack;
   Color get primaryColor => colorScheme.primary;
-  Color get primaryVariantColor => colorScheme.primaryVariant;
+  Color get primaryVariantColor => colorScheme.primaryContainer;
   Color get secondaryColor => colorScheme.secondary;
-  Color get secondaryVariantColor => colorScheme.secondaryVariant;
+  Color get secondaryVariantColor => colorScheme.secondaryContainer;
   Color get surfaceColor => colorScheme.surface;
   Color get backgroundColor => colorScheme.background;
   Color get errorColor => colorScheme.error;
