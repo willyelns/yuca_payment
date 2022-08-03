@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "349980230080",
+    "firebase_url": "https://willyelns-cds.firebaseio.com",
+    "project_id": "willyelns-cds",
+    "storage_bucket": "willyelns-cds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349980230080:android:c93a0b8f6397f9015b4825",
+        "android_client_info": {
+          "package_name": "com.willyelns.pizzaslicescounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349980230080-ar75hfrb3m38dh7a6if6u65fupl85l76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkw5mvaaPkRMKRGQO_QRLpwaYQIOizqS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349980230080-ar75hfrb3m38dh7a6if6u65fupl85l76.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "349980230080-0jqji1855tvrt6d9r9t8c721kg6u9rhb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.willyelns.PizzaSlicesCounter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349980230080:android:549868a73a78b1885b4825",
+        "android_client_info": {
+          "package_name": "com.willyelns.yucaPayment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349980230080-ar75hfrb3m38dh7a6if6u65fupl85l76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkw5mvaaPkRMKRGQO_QRLpwaYQIOizqS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349980230080-ar75hfrb3m38dh7a6if6u65fupl85l76.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "349980230080-0jqji1855tvrt6d9r9t8c721kg6u9rhb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.willyelns.PizzaSlicesCounter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
