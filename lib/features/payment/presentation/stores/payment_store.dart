@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
-import 'package:yuca_payment/commons/formatters/currency_formatter.dart';
-import 'package:yuca_payment/commons/formatters/date_formatter.dart';
-import 'package:yuca_payment/features/payment/shared/enums/payment_status.dart';
+
+import '../../../../commons/formatters/currency_formatter.dart';
+import '../../../../commons/formatters/date_formatter.dart';
+import '../../../../commons/types/use_case_response.dart';
 import '../../domain/entities/payment.dart';
 import '../../domain/usecases/retrieve_payment_list.dart';
-
-import '../../../../commons/types/use_case_response.dart';
+import '../../shared/enums/payment_status.dart';
 
 part 'payment_store.g.dart';
 
