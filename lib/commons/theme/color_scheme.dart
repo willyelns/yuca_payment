@@ -14,9 +14,9 @@ const Color _kBorder = Color(0xFFF2F2F2);
 
 const kDefaultColorScheme = ColorScheme(
   primary: _kBaseBlack,
-  primaryVariant: _kMediumBlack,
+  primaryContainer: _kMediumBlack,
   secondary: _kBaseBlack,
-  secondaryVariant: _kMediumBlack,
+  secondaryContainer: _kMediumBlack,
   surface: _kSurface,
   background: _kBackground,
   error: _kOnClosed,
