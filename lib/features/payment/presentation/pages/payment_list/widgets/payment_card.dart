@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:yuca_payment/features/payment/presentation/stores/payment_store.dart';
-import 'package:yuca_payment/features/payment/presentation/widgets/custom_divider.dart';
-import 'package:yuca_payment/features/payment/presentation/widgets/payment_card_details_button.dart';
-import 'package:yuca_payment/features/payment/presentation/widgets/payment_card_pay_button.dart';
-import 'package:yuca_payment/features/payment/presentation/widgets/payment_due_date.dart';
-import 'package:yuca_payment/features/payment/presentation/widgets/payment_effective_date.dart';
-import 'package:yuca_payment/features/payment/presentation/widgets/payment_header.dart';
-import 'package:yuca_payment/features/payment/presentation/widgets/payment_value.dart';
-import 'package:yuca_payment/features/payment/shared/enums/payment_status.dart';
-import 'package:yuca_payment/injection_container.dart';
 
-import '../../domain/entities/payment.dart';
-import '../../../../commons/extensions/theme/theme_context.dart';
+import '../../../../../../commons/extensions/theme/theme_context.dart';
+import '../../../../../../injection_container.dart';
+import '../../../../domain/entities/payment.dart';
+import '../../../../shared/enums/payment_status.dart';
+import '../../../stores/payment_store.dart';
+import '../../../widgets/custom_divider.dart';
+import '../../../widgets/payment_due_date.dart';
+import '../../../widgets/payment_effective_date.dart';
+import '../../../widgets/payment_header.dart';
+import '../../../widgets/payment_value.dart';
+import '../../payment_details/widgets/payment_card_details_button.dart';
+import 'payment_card_pay_button.dart';
 
 class PaymentCard extends StatelessWidget {
   const PaymentCard({
