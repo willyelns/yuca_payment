@@ -45,9 +45,12 @@ dependencies:
   mocktail: ^0.2.0
   intl: ^0.17.0
   flutter_svg: ^0.23.0+1
-  google_fonts: ^2.1.0
+  google_fonts: ^2.1.1
   animations: ^2.0.2
   shimmer: ^2.0.0
+  firebase_core: ^1.12.0
+  firebase_analytics: ^9.1.1
+  firebase_remote_config: ^2.0.1
 
 dev_dependencies:
   flutter_test:
