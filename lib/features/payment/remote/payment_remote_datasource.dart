@@ -1,7 +1,7 @@
+import '../../../commons/base/remote_datasouce.dart';
 import '../data/datasources/payment_datasource.dart';
 import '../data/models/payment_model.dart';
 import 'payment_retrofit_datasource.dart';
-import '../../../commons/base/remote_datasouce.dart';
 
 class PaymentRemoteDataSourceImpl extends RemoteDataSource
     implements PaymentRemoteDataSource {

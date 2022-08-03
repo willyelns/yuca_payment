@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yuca_payment/routes/app_pages.dart';
+
+import '../../../../routes/app_pages.dart';
 
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({

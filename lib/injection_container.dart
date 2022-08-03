@@ -1,6 +1,5 @@
 import 'package:get_it/get_it.dart';
 import 'package:logger/logger.dart';
-import 'package:yuca_payment/features/payment/domain/usecases/retrieve_payment_list.dart';
 
 import 'commons/formatters/currency_formatter.dart';
 import 'commons/formatters/date_formatter.dart';
@@ -8,6 +7,7 @@ import 'commons/services/http_config.dart';
 import 'features/payment/data/datasources/payment_datasource.dart';
 import 'features/payment/data/repositories/payment_repository_impl.dart';
 import 'features/payment/domain/repositories/payment_repository.dart';
+import 'features/payment/domain/usecases/retrieve_payment_list.dart';
 import 'features/payment/presentation/stores/payment_store.dart';
 import 'features/payment/remote/payment_remote_datasource.dart';
 import 'features/payment/remote/payment_retrofit_datasource.dart';

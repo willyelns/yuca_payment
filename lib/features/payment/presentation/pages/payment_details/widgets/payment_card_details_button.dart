@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../commons/extensions/theme/theme_context.dart';
+import '../../../../../../commons/extensions/theme/theme_context.dart';
 
 class PaymentCardDetailsButton extends StatelessWidget {
   const PaymentCardDetailsButton({
