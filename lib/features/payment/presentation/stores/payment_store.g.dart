@@ -6,7 +6,7 @@ part of 'payment_store.dart';
 // StoreGenerator
 // **************************************************************************
 
-// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
+// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic, no_leading_underscores_for_local_identifiers
 
 mixin _$PaymentStore on _PaymentStoreBase, Store {
   Computed<PaymentPageState>? _$currentStateComputed;
@@ -31,7 +31,8 @@ mixin _$PaymentStore on _PaymentStoreBase, Store {
               name: '_PaymentStoreBase.selectedPayment'))
       .value;
 
-  final _$_stateAtom = Atom(name: '_PaymentStoreBase._state');
+  late final _$_stateAtom =
+      Atom(name: '_PaymentStoreBase._state', context: context);
 
   @override
   PaymentPageState get _state {
@@ -46,7 +47,8 @@ mixin _$PaymentStore on _PaymentStoreBase, Store {
     });
   }
 
-  final _$paymentListAtom = Atom(name: '_PaymentStoreBase.paymentList');
+  late final _$paymentListAtom =
+      Atom(name: '_PaymentStoreBase.paymentList', context: context);
 
   @override
   List<Payment>? get paymentList {
@@ -61,8 +63,8 @@ mixin _$PaymentStore on _PaymentStoreBase, Store {
     });
   }
 
-  final _$_selectedPaymentAtom =
-      Atom(name: '_PaymentStoreBase._selectedPayment');
+  late final _$_selectedPaymentAtom =
+      Atom(name: '_PaymentStoreBase._selectedPayment', context: context);
 
   @override
   Payment? get _selectedPayment {
@@ -77,7 +79,8 @@ mixin _$PaymentStore on _PaymentStoreBase, Store {
     });
   }
 
-  final _$initAsyncAction = AsyncAction('_PaymentStoreBase.init');
+  late final _$initAsyncAction =
+      AsyncAction('_PaymentStoreBase.init', context: context);
 
   @override
   Future<void> init() {

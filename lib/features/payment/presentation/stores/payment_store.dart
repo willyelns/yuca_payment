@@ -12,6 +12,7 @@ part 'payment_store.g.dart';
 
 enum PaymentPageState { init, loading, loaded, error, empty }
 
+// ignore: library_private_types_in_public_api
 class PaymentStore = _PaymentStoreBase with _$PaymentStore;
 
 abstract class _PaymentStoreBase with Store {
